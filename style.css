@@ -41,11 +41,11 @@ body {
 
 /* ----------------------MEDIA QUERY---------------- */
 @media screen and (max-width: 768px) {
-  /* body {
+  body {
     display: block;
     padding: 0;
     margin: 0;
-  } */
+  }
 
   #calculator {
     max-width: 100%;

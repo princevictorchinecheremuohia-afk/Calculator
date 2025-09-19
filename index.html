@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="calculator">
+      <input type="text" id="display" readonly />
+      <div class="calc-btn">
+        <button onclick="clearBtn()">C</button>
+        <button onclick="displayInputBtn('/')">/</button>
+        <button onclick="displayInputBtn('*')">x</button>
+        <button onclick="backSpace()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button onclick="displayInputBtn('7')">7</button>
+        <button onclick="displayInputBtn('8')">8</button>
+        <button onclick="displayInputBtn('9')">9</button>
+        <button onclick="displayInputBtn('-')">-</button>
+        <button onclick="displayInputBtn('4')">4</button>
+        <button onclick="displayInputBtn('5')">5</button>
+        <button onclick="displayInputBtn('6')">6</button>
+        <button onclick="displayInputBtn('+')">+</button>
+        <button onclick="displayInputBtn('1')">1</button>
+        <button onclick="displayInputBtn('2')">2</button>
+        <button onclick="displayInputBtn('3')">3</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="displayInputBtn('%')">%</button>
+        <button onclick="displayInputBtn('0')">0</button>
+        <button onclick="displayInputBtn('.')">.</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
